@@ -132,6 +132,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
     /* margin-top: -10%; */
 }
 
@@ -186,3 +187,163 @@ body {
     z-index: 10;
 }
 
+
+/* Features Section */
+.features {
+    padding: 100px 0;
+    background: #f2f2f2;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.section-header h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.section-header p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+.feature-card {
+    height: 200px;
+    /* background: #F2F2F2; */
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: -3px -3px 10px 0px #FFFFFF;
+    box-shadow: 5px 5px 10px 0px #0000001A;
+
+    transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.feature-card h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.feature-card p {
+    color: #666;
+    line-height: 1.6;
+    max-width: 90%;
+    margin: auto;
+}
+
+/* Connection Section */
+.connection-section {
+    padding: 100px 0;
+    background: white;
+}
+
+.connection-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.connection-phones {
+    position: relative;
+    height: 600px;
+    background-image: url('./image/Ellipse 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.phone-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: rotate(-5deg);
+    z-index: 1;
+    height: auto;
+    
+    
+}
+
+.phone-right {
+    position: absolute;
+    right: 0;
+    /* top: 50px; */
+    transform: rotate(5deg);
+    z-index: 2;
+    height: auto;
+}
+
+.profile-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    height: 500px;
+}
+
+
+.connection-text h2 {
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #333;
+}
+.connection-text p {
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.connection-features {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.connection-feature {
+    display: flex;
+    align-items: flex-start;
+    box-shadow: -3px -3px 10px 0px #FFFFFF;
+    box-shadow: 5px 5px 10px 0px #0000001A;
+    padding-left: 20px;
+    border-radius: 21.33px;
+
+}
+
+.connection-feature .feature-icon {
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+
+.connection-feature h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.connection-feature p {
+    color: #666;
+    line-height: 1.6;
+}
