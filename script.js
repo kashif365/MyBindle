@@ -10,8 +10,6 @@ document.addEventListener('DOMContentLoaded', function() {
 function initAnimations() {
     // Header animation on scroll
     gsap.to('.header', {
-        // backgroundColor: 'rgba(255, 255, 255, 0.98)',
-        // boxShadow: '0 2px 20px rgba(0, 0, 0, 0.1)',
         scrollTrigger: {
             trigger: '.hero',
             start: 'top -50px',
