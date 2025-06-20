@@ -136,5 +136,61 @@ function initAnimations() {
             toggleActions: 'play none none reverse'
         }
     });
+    // Installation steps animation
+    gsap.from('.installation h2, .installation > p', {
+        duration: 1,
+        y: 30,
+        opacity: 0,
+        stagger: 0.2,
+        ease: 'power3.out',
+        scrollTrigger: {
+            trigger: '.installation',
+            start: 'top 80%',
+            end: 'bottom 20%',
+            toggleActions: 'play none none reverse'
+        }
+    });
 
+    gsap.from('.step', {
+        duration: 0.8,
+        y: 50,
+        opacity: 0,
+        scale: 0.9,
+        stagger: 0.2,
+        ease: 'back.out(1.7)',
+        scrollTrigger: {
+            trigger: '.steps',
+            start: 'top 80%',
+            end: 'bottom 20%',
+            toggleActions: 'play none none reverse'
+        }
+    });
+
+// Smile section animations
+    gsap.from('.smile-text', {
+        duration: 1,
+        x: -50,
+        opacity: 0,
+        ease: 'power3.out',
+        scrollTrigger: {
+            trigger: '.smile-section',
+            start: 'top 70%',
+            end: 'bottom 30%',
+            toggleActions: 'play none none reverse'
+        }
+    });
+
+    gsap.from('.smile-phones', {
+        duration: 1.2,
+        x: 50,
+        opacity: 0,
+        scale: 0.9,
+        ease: 'power3.out',
+        scrollTrigger: {
+            trigger: '.smile-section',
+            start: 'top 70%',
+            end: 'bottom 30%',
+            toggleActions: 'play none none reverse'
+        }
+    });
 }
