@@ -244,7 +244,24 @@ function initAnimations() {
     });
 
 }
+$(document).ready(function () {
+    $('#show-more-content').hide();
+    $('#show-less').hide();
 
+    $('#show-more').click(function () {
+        $('#show-more-content').slideDown(600, 'swing');
+        $(this).fadeOut(250, function() {
+            $('#show-less').fadeIn(250);
+        });
+    });
+
+    $('#show-less').click(function () {
+        $('#show-more-content').slideUp(500, 'swing');
+        $(this).fadeOut(250, function() {
+            $('#show-more').fadeIn(250);
+        });
+    });
+});
 
 
 

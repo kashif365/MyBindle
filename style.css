@@ -302,8 +302,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-
-
 .phone-left {
     position: absolute;
     left: 0;
@@ -541,8 +539,6 @@ body {
     height: auto;
     border-radius: 32px;
     margin: auto;
-
-
 }
 
 .smile-content {
@@ -617,9 +613,7 @@ body {
 /* Testimonials */
 .testimonials {
     padding: 100px 0;
-    /* background: #f8f9fa; */
     text-align: center;
-    /* width: 1920px; */
     margin: auto;
 }
 
@@ -643,8 +637,6 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(494px, 1fr));
     row-gap: 1.5rem;
-    /* vertical spacing between rows */
-    /* column-gap: 1rem;     */
     margin-bottom: 3rem;
 }
 
@@ -655,9 +647,7 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
     transition: all 0.3s ease;
     width: 100%;
-    /* Let it adapt to grid column */
     max-width: 494px;
-    /* Match minmax in grid */
     height: auto;
 
 }
@@ -716,8 +706,6 @@ body {
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.3s ease;
-    width: 350px;
-    height: 109px;
     width: 357.652587890625px;
     height: 109.07137298583984px;
     border-radius: 17.76px;
@@ -728,6 +716,8 @@ body {
     letter-spacing: 0%;
     text-align: center;
     margin-top: 100px;
+    list-style-type: none;
+    text-decoration: none;
 }
 
 .see-more:hover {
@@ -741,6 +731,116 @@ body {
     line-height: 60px;
     letter-spacing: 0px;
     max-width: 35% ;
+}
+
+.buttons-wrapper {
+  display: flex;
+  gap: 20px;
+  justify-content:start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.store-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #000000;
+  border-radius: 133px;
+  padding: 0;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  width: 250px;
+  height: 80px;
+  position: relative;
+  overflow: hidden;
+}
+
+.store-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.store-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.button-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  padding: 8px 16px;
+  gap: 10px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.apple-logo {
+  width: 44px;
+  height: 44px;
+  color: black;
+}
+
+.google-play-logo {
+  width: 44px;
+  height: 44px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  line-height: 1;
+  flex: 1;
+}
+
+.top-text {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(90, 90, 90);
+  letter-spacing: 0.5px;
+  margin-bottom: 2px;
+  text-transform: uppercase;
+}
+
+.bottom-text {
+  font-size: 22px;
+  font-weight: 700;
+  color: black;
+  letter-spacing: -0.3px;
+  line-height: 1;
+}
+
+.app-store-button {
+  background: white;
+}
+
+.app-store-button .bottom-text {
+    font-family: var(--font-outfit);
+  font-weight: 400;
+}
+.google-play-button {
+  background: white;
+  color: black;
+}
+
+.google-play-button .bottom-text {
+  font-family:var(--font-outfit);
+  font-weight: 500;
+}
+.store-button:focus {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
 }
 
 
