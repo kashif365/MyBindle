@@ -1,0 +1,760 @@
+
+/* Large Desktop - 1200px and above*/
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1920px;
+        padding: 0 20px;
+    }
+
+    .hero-title {
+        font-size: 80px;
+        line-height: 94px;
+        width: auto;
+        max-width: 680px;
+    }
+    .section-header {
+        font-size: 63px;
+        line-height: 68px;
+    }
+
+    .connection-text h1 {
+        font-size: 63px;
+        line-height: 68px;
+    }
+
+    .smile-text h1 {
+        font-size: 96px;
+        line-height: 110%;
+    }
+}
+
+/*  768px to 1199px */
+@media (max-width: 1199px) and (min-width: 768px) {
+
+    .container {
+        max-width: 100%;
+        padding: 0 40px;
+    }
+
+    /* Header */
+    .logo img {
+        width: 250px;
+        height: 60px;
+    }
+
+    /* Hero Section */
+    .hero {
+        height: auto;
+        padding: 120px 0 80px;
+    }
+
+    .hero-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+        padding: 2rem;
+        font-family: 'outfit' sans-serif;
+    }
+
+    .hero-text {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .hero-text h1 {
+        font-size: 52px;
+        line-height: 60px;
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .hero-description {
+        font-size: 18px;
+        line-height: 28px;
+        max-width: 100%;
+        
+
+    }
+
+    .cta-button {
+        width: 200px;
+        height: 60px;
+        font-size: 18px;
+        border-radius: 10px;
+    }
+
+    .hero-phone {
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 300px;
+        height: 60%;
+        margin: 0 auto;
+    }
+
+    .hero-phone .phone-mockup {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: inline-block;
+        left: 0;
+        top: 0;
+    }
+
+    .phone-mockup img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .seamless-connections-card,
+    .discover-explore-card {
+        position: absolute;
+        width: 280px;
+        height: 80px;
+        font-size: 18px;
+        margin: 20px auto;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+
+    .seamless-connections-card {
+        top: 10%;
+        left: -40%;
+    }
+
+    .discover-explore-card {
+        top: 120%;
+        left: 50%;
+    }
+
+    /* Features Section */
+    .section-header {
+        font-size: 48px;
+        line-height: 80px;
+        padding-top: 60px;
+    }
+
+    .section-header p {
+        font-size: 20px;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        margin-bottom: 60px;
+    }
+
+    .feature-card {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        margin: 0 auto;
+        padding: 30px;
+    }
+
+    .feature-card h3 {
+        font-size: 28px;
+    }
+
+    .feature-card p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    /* Connection Section */
+    .connection-content {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+
+    .connection-phones {
+        height: 400px;
+        order: 2;
+    }
+
+    .phone-left,
+    .phone-right {
+        margin-inline: 30%;
+        height: auto;
+    }
+
+    .connection-text {
+        order: 1;
+        text-align: center;
+    }
+
+    .connection-text h1 {
+        font-size: 48px;
+        line-height: 52px;
+    }
+
+    .connection-text p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .connection-feature {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        padding: 24px;
+        margin: auto;
+    }
+
+    .connection-feature h4 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .connection-feature p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    /* Installation Section */
+    .installation h2 {
+        font-size: 48px;
+        line-height: 52px;
+    }
+
+    .installation .container .p {
+        width: 100%;
+        max-width: 600px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .number-container {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .line {
+        width: 200px;
+    }
+
+    .step-number {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .steps {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .step {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        margin: 0 auto;
+        padding: 40px 30px;
+    }
+
+    .step h3 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .step p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    /* Smile Section */
+    .smile-content {
+        grid-template-columns: 1fr;
+        width: 90%;
+        text-align: center;
+        /* height:auto; */
+    }
+
+    .smile-text {
+        padding-top: 60px;
+        order: 1;
+        text-align: start;
+
+    }
+
+    .smile-text h1 {
+        font-size: 72px;
+        line-height: 110%;
+    }
+
+    .smile-text p {
+        font-size: 20px;
+        line-height: 32px;
+        max-width: 80%;
+    }
+
+    .half-phone {
+        display: none;
+    }
+    .smile-phones {
+        height: 400px;
+        order: 2;
+    }
+
+    .smile-phones .phone-mockup img {
+        left: 70%;
+    }
+
+    .final-smile-text .smile-text-final {
+        font-size: 1.5rem;
+        line-height: 40px;
+        max-width: 100%;
+    }
+
+    /* Testimonials */
+    .testimonials h2 {
+        font-size: 48px;
+        line-height: 110%;
+    }
+
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .testimonial {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 30px 24px;
+    }
+
+    .testimonial p {
+        font-size: 20px;
+    }
+
+    .user span {
+        font-size: 20px;
+    }
+
+    .see-more {
+        width: 280px;
+        height: 80px;
+        font-size: 24px;
+        margin-top: 60px;
+    }
+}
+
+/*  Below 768px */
+@media (max-width: 767px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    /* Header */
+    .header {
+        padding: 15px 0;
+    }
+
+    .logo img {
+        width: 200px;
+        height: 40px;
+    }
+
+    /* Hero Section */
+    .hero {
+        height: auto;
+        padding: 100px 0 60px;
+        text-align: center;
+    }
+
+    .hero-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .hero-text h1 {
+        font-size: 42px;
+        line-height: 40px;
+        max-width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .hero-description {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 20px 0;
+    }
+
+    .cta-button {
+        width: 180px;
+        height: 50px;
+        font-size: 16px;
+        border-radius: 8px;
+    }
+     .hero-phone {
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 300px;
+        height: 60%;
+        margin: auto;
+        
+    }
+
+    .hero-phone .phone-mockup {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: inline-block;
+        left: 0;
+        top: 0;
+        
+    }
+
+    .phone-mockup img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .seamless-connections-card,
+    .discover-explore-card {
+        position: absolute;
+        width: 280px;
+        height: 80px;
+        font-size: 18px;
+        margin: 20px auto;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+
+    .seamless-connections-card {
+        top: 10%;
+        left: -40%;
+    }
+
+    .discover-explore-card {
+        top: 120%;
+        left: 40%;
+    }
+
+
+    /* Features Section */
+    .features {
+        padding: 60px 0;
+    }
+
+    .section-header {
+        font-size: 32px;
+        line-height: 36px;
+        padding-top: 40px;
+        margin-bottom: 2rem;
+    }
+
+    .section-header p {
+        font-size: 16px;
+        padding-top: 15px;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        margin-bottom: 40px;
+    }
+
+    .feature-card {
+        width: 100%;
+        height: auto;
+        padding: 24px 20px;
+        border-radius: 16px;
+    }
+
+    .feature-card h3 {
+        font-size: 22px;
+        margin-bottom: 0.5rem;
+    }
+
+    .feature-card p {
+        font-size: 14px;
+        line-height: 22px;
+        max-width: 100%;
+    }
+
+    /* Connection Section */
+    .connection-section {
+        padding: 60px 0;
+        margin-top: 60px;
+    }
+
+    .connection-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .connection-phones {
+        height: 300px;
+        order: 2;
+    }
+
+    .phone-left,
+    .phone-right {
+        margin-inline: 10%;
+        height: auto;
+    }
+
+    .connection-text {
+        order: 1;
+        text-align: center;
+    }
+
+    .connection-text h1 {
+        font-size: 32px;
+        line-height: 36px;
+        margin-bottom: 1rem;
+    }
+
+    .connection-text p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 1.5rem;
+    }
+
+    .connection-features {
+        gap: 1rem;
+    }
+
+    .connection-feature {
+        width: 100%;
+        height: auto;
+        padding: 20px 16px;
+        border-radius: 16px;
+    }
+
+    .connection-feature h4 {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 0.25rem;
+    }
+
+    .connection-feature p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-left: 0;
+    }
+
+    /* Installation Section */
+    .installation {
+        padding: 60px 0;
+    }
+
+    .installation h2 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .installation .container .p {
+        width: 100%;
+        font-size: 14px;
+        line-height: 22px;
+        padding: 15px;
+    }
+
+    .number-container {
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .line {
+        width: 100px;
+        height: 1px;
+    }
+
+    .step-number {
+        font-size: 28px;
+        line-height: 32px;
+        padding-top: 10px;
+    }
+
+    .steps {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .step {
+        width: 100%;
+        height: auto;
+        padding: 24px 20px;
+        border-radius: 16px;
+        margin-top: 20px;
+    }
+
+    .step h3 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .step p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 15px;
+    }
+
+    /* Smile Section */
+    .smile-section {
+        width: 95%;
+        border-radius: 20px;
+    }
+
+    .smile-content {
+        grid-template-columns: 1fr;
+        width: 90%;
+        text-align: center;
+    }
+
+    .smile-text {
+        padding-top: 40px;
+        order: 1;
+        text-align: start;
+    }
+
+    .smile-text h1 {
+        font-size: 48px;
+        line-height: 110%;
+        margin-bottom: 1rem;
+    }
+
+    .smile-text p {
+        font-size: 16px;
+        line-height: 26px;
+        max-width: 90%;
+        /* margin: 0 auto 1.5rem; */
+    }
+
+    .smile-text img {
+        position: relative;
+        left: 0;
+        transform: none;
+        margin-top: 30px;
+        max-width: 150px;
+    }
+    .half-phone {
+        display: none;
+        
+    }
+
+      .smile-phones {
+        height: 400px;
+        order: 2;
+    }
+
+    .smile-phones .phone-mockup img {
+        left: 70%;
+    }
+
+    
+
+    /* Testimonials */
+    .testimonials {
+        padding: 60px 0;
+    }
+
+    .testimonials h2 {
+        font-size: 32px;
+        line-height: 110%;
+        margin-bottom: 2rem;
+    }
+
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        margin-bottom: 2rem;
+    }
+
+    .testimonial {
+        max-width: 100%;
+        padding: 20px 16px;
+        border-radius: 20px;
+    }
+
+    .testimonial p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 1rem;
+    }
+
+    .user {
+        gap: 1rem;
+    }
+
+    .user span {
+        font-size: 16px;
+    }
+
+    .see-more {
+        width: 250px;
+        height: 60px;
+        font-size: 18px;
+        border-radius: 12px;
+        margin-top: 40px;
+    }
+
+    .final-smile-text .smile-text-final {
+        font-size: 1rem;
+        line-height: 20px;
+        max-width: 100%;
+    }
+}
+
+/* Extra small devices - Below 480px */
+@media (max-width: 479px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .hero-title {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .hero-description {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .section-header {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .connection-text h1,
+    .installation h2,
+    .testimonials h2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .smile-text h1 {
+        font-size: 36px;
+        line-height: 110%;
+    }
+
+    .seamless-connections-card,
+    .discover-explore-card {
+        width: 220px;
+        height: 50px;
+        font-size: 12px;
+    }
+
+    .see-more {
+        width: 200px;
+        height: 50px;
+        font-size: 16px;
+    }
+}

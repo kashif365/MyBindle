@@ -80,36 +80,32 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 80px;
     align-items: center;
-    width: 100%;
 
 }
 
 .hero-text {
     color: white;
+    
 }
-
-.hero-title {
-    font-weight: 600;
-    font-size: 100px;
+.hero-text h1{
+ font-size: 100px;
+ font-weight: 600;
+    font-size: 120px;
     line-height: 118px;
     letter-spacing: -3%;
-    width: 851px;
-    height: 354px;
     top: 234px;
     left: 131px;
-
-
-
-
+    font-family: var(--font-outfit);
 }
 
 .hero-description {
-    font-weight: 600;
-    font-size: 23px;
+    font-weight: 500;
+    font-size: 26px;
     line-height: 36px;
     letter-spacing: 0%;
     padding-top: 2%;
     padding-bottom: 2%;
+    font-family: var(--font-outfit);
 
 }
 
@@ -121,13 +117,14 @@ body {
     cursor: pointer;
     transition: all 0.3s ease;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-    width: 243.9781951904297px;
-    height: 74.40470123291016px;
+    width: 357.652587890625px;
+    height: 90.07137298583984px;
     border-radius: 12.11px;
-    font-size: 22.49px;
+    font-size: 32.98px;
     line-height: 100%;
     letter-spacing: 0%;
     text-align: center;
+    font-family: var(--font-outfit);
 
 
 }
@@ -731,9 +728,6 @@ body {
     letter-spacing: 0%;
     text-align: center;
     margin-top: 100px;
-
-
-
 }
 
 .see-more:hover {
@@ -742,10 +736,11 @@ body {
     transform: translateY(-2px);
 }
 
-.smile-text-final {
-    font-size: 34px !important;
-    line-height: 60px !important;
+.final-smile-text .smile-text-final {
+    font-size: 34px ;
+    line-height: 60px;
     letter-spacing: 0px;
-    max-width: 35% !important;
-
+    max-width: 35% ;
 }
+
+
