@@ -94,7 +94,7 @@ function initAnimations() {
         }
     });
 
-        // Connection section animations
+    // Connection section animations
     gsap.from('.connection-text', {
         duration: 1,
         x: -50,
@@ -166,7 +166,7 @@ function initAnimations() {
         }
     });
 
-// Smile section animations
+    // Smile section animations
     gsap.from('.smile-text', {
         duration: 1,
         x: -50,
@@ -193,4 +193,64 @@ function initAnimations() {
             toggleActions: 'play none none reverse'
         }
     });
+
+    // Testimonials animation
+    gsap.from('.testimonials h2', {
+        duration: 1,
+        y: 30,
+        // opacity: 0,
+        ease: 'power3.out',
+        scrollTrigger: {
+            trigger: '.testimonials',
+            // start: 'top 80%',
+            // end: 'bottom 20%',
+            toggleActions: 'play none none reverse'
+        }
+    });
+
+    gsap.from('.testimonial', {
+        duration: 0.8,
+        y: 50,
+        // opacity: 0,
+        scale: 0.95,
+        // stagger: 0.1,
+        ease: 'power3.out',
+        scrollTrigger: {
+            trigger: '.testimonials-grid',
+            // start: 'top 80%',
+            // end: 'bottom 20%',
+            toggleActions: 'play none none reverse'
+        }
+    });
+    // Phone mockup interactions
+    const phoneMockups = document.querySelectorAll('.phone-mockup');
+    phoneMockups.forEach(phone => {
+        phone.addEventListener('mouseenter', () => {
+            gsap.to(phone, {
+                duration: 0.3,
+                scale: 1.05,
+                rotation: 0,
+                ease: 'power2.out'
+            });
+        });
+
+        phone.addEventListener('mouseleave', () => {
+            gsap.to(phone, {
+                duration: 0.3,
+                scale: 1,
+                ease: 'power2.out'
+            });
+        });
+    });
+
 }
+
+
+
+
+
+
+
+
+
+
