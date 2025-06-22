@@ -483,7 +483,7 @@
              }
 
              .hero-text h1 {
-                 font-size: 70px;
+                 font-size: 74px;
                  line-height: 100px;
                  max-width: 750px;
 
@@ -725,7 +725,7 @@
              }
 
              .hero-text h1 {
-                 font-size: 80px;
+                 font-size: 74px;
                  line-height: 90px;
                  max-width: 700px;
              }
@@ -997,14 +997,14 @@
              }
 
              .hero-text h1 {
-                 font-size: 52px;
-                 line-height: 60px;
+                 font-size: 72px;
+                 line-height: 80px;
                  max-width: 80%;
                  margin: auto;
              }
 
              .hero-description {
-                 font-size: 18px;
+                 font-size: 20px;
                  line-height: 28px;
                  max-width: 100%;
 
@@ -1306,7 +1306,7 @@
              }
 
              .hero-text h1 {
-                 font-size: 42px;
+                 font-size: 48px;
                  line-height: 40px;
                  max-width: 100%;
                  margin: auto;
@@ -1319,6 +1319,7 @@
                  padding: 20px 0;
                  max-width: 80%;
                  margin: auto;
+                 font-weight: 500;
              }
 
              .cta-button {
@@ -1666,14 +1667,14 @@
              }
 
              .hero-text h1 {
-                 font-size: 28px;
+                 font-size: 36px;
                  line-height: 34px;
                  text-align: left;
                  padding-left: 20px;
              }
 
              .hero-description {
-                 font-size: 12px;
+                 font-size: 16px;
                  max-width: 90%;
                  text-align: left;
                  margin: auto;
@@ -1744,6 +1745,7 @@
          @media (max-width: 480px) {
              .buttons-wrapper {
                  flex-direction: column;
+                 align-items: start;
                  gap: 15px;
              }
 
