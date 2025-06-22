@@ -20,8 +20,8 @@ function initAnimations() {
 
     // Hero section animations
     const heroTl = gsap.timeline();
-    heroTl.from('.hero-title', {
-        duration: 1,
+    heroTl.from('.hero-text', {
+        duration: 0.8,
         y: 50,
         opacity: 0,
         ease: 'power3.out'
@@ -91,6 +91,19 @@ function initAnimations() {
                     stagger: 0.2
                 });
             }
+        }
+    });
+     gsap.from('.feature-card', {
+        duration: 0.8,
+        x: -30,
+        opacity: 0,
+        stagger: 0.2,
+        ease: 'power3.out',
+        scrollTrigger: {
+            trigger: '.feature-card',
+            start: 'top 80%',
+            end: 'bottom 20%',
+            toggleActions: 'play none none reverse'
         }
     });
 
@@ -193,35 +206,6 @@ function initAnimations() {
             toggleActions: 'play none none reverse'
         }
     });
-
-    // Testimonials animation
-    gsap.from('.testimonials h2', {
-        duration: 1,
-        y: 30,
-        // opacity: 0,
-        ease: 'power3.out',
-        scrollTrigger: {
-            trigger: '.testimonials',
-            // start: 'top 80%',
-            // end: 'bottom 20%',
-            toggleActions: 'play none none reverse'
-        }
-    });
-
-    gsap.from('.testimonial', {
-        duration: 0.8,
-        y: 50,
-        // opacity: 0,
-        scale: 0.95,
-        // stagger: 0.1,
-        ease: 'power3.out',
-        scrollTrigger: {
-            trigger: '.testimonials-grid',
-            // start: 'top 80%',
-            // end: 'bottom 20%',
-            toggleActions: 'play none none reverse'
-        }
-    });
     // Phone mockup interactions
     const phoneMockups = document.querySelectorAll('.phone-mockup');
     phoneMockups.forEach(phone => {
@@ -262,11 +246,4 @@ $(document).ready(function () {
         });
     });
 });
-
-
-
-
-
-
-
 
